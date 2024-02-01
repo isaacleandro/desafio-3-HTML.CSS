@@ -6,7 +6,7 @@
 body {
     display: flex;
     height: 100vh;
-    background-image: linear-gradient(to bottom,rgb(29, 112, 160), rgb(147, 186, 245) 70%);
+    background-image: linear-gradient(to bottom,rgb(29, 101, 160), rgb(147, 186, 245) 50%);
 }
 
 
@@ -20,7 +20,7 @@ body {
     height: 50%;
     margin-top: 17%;
     border-top: solid 1px;
-    border-right: solid 1px;
+    border-right: solid 1px ;
     border-bottom: solid 1px;
     color:rgba(250, 235, 215, 0.781);
 }
@@ -49,15 +49,16 @@ body {
 }
 .h1Description {
     writing-mode: vertical-lr;
-    margin-bottom: 20px;
+    transform: rotate(180deg);
 }
 .h1NameSinox {
-    color: rgb(238, 112, 175);
-    font-size: 500%;
-} 
-.h1NameBili {
     font-size: 700%;
-    margin-left: -6%;
+    margin-left:35%;
+} 
+.h1NameBili {   
+    color: rgb(252, 173, 212);
+    font-size: 500%;
+    margin-left: -8%;   
 }
 .allBetweenButtonH3 {
     display: flex;
